@@ -1,0 +1,12 @@
+[user]
+	name = MichaelChoi
+	email = choi@cyberzero.co.jp
+[alias]
+	co = checkout
+	st = status
+	br = branch
+[color]
+	ui = auto
+[core]
+	excludesfile = ~/.gitignore
+	editor = vim -c \"set fenc=utf-8\"
