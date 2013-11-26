@@ -189,7 +189,7 @@ set runtimepath+=~/.vim/bundle/qfixapp
 " キーマップリーダー g+, or g+,+space
 let QFixHowm_Key = 'g'
 " howm_dirはファイルを保存したいディレクトリを設定
-let howm_dir             = '~/Works/memo/howm'
+let howm_dir             = '~/Memo/howm'
 let howm_filename        = '%Y/%m/%Y-%m-%d-%H%M%S.txt'
 let howm_fileencoding    = 'utf-8'
 let howm_fileformat      = 'unix'
