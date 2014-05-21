@@ -71,7 +71,7 @@ set directory=~/.vim/tmp
 "autocmd BufWritePre * :%s/\s\+$//ge
 
 " 色テーマ指定
-set background=light
+set background=dark
 colorscheme solarized
 
 " http://tech.thekyo.jp/現在のvimrc-vimrc/165/
@@ -238,3 +238,12 @@ function! s:align()
     call search(repeat('[^|]*|',column).'\s\{-\}'.repeat('.',position),'ce',line('.'))
   endif
 endfunction
+
+
+" ag
+" https://github.com/rking/ag.vim
+"let g:agprg="<custom-ag-path-goes-here> --column"
+
+
+" indentLine
+" https://github.com/Yggdroot/indentLine
